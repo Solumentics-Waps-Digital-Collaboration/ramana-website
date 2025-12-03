@@ -1,22 +1,22 @@
 {
   "metadata": {
-    "title": "RAMANA S.A. - Official CANAL+ Distributor Cameroon & CAR | Since 1995",
-    "description": "Leading CANAL+ distributor in Cameroon and CAR. 100+ sales points. Professional installation, premium packages, technical support. Authorized wholesaler since 1995."
+    "title": "RAMANA S.A. - Official CANAL+ Partner Cameroon & CAR | Since 1995",
+    "description": "Leading CANAL+ wholesale partner in Cameroon and CAR. 100+ sales points. Professional installation, premium packages. Authorized since 1995."
   },
   "nav": {
     "home": "Home",
     "about": "About",
     "services": "Services",
     "whyUs": "Why Us",
-    "products": "Products",
+    "products": "Packages",
     "coverage": "Coverage",
     "faq": "FAQ",
     "contact": "Contact"
   },
   "hero": {
     "headline": "Your TV Has No Limits",
-    "subheadline": "RAMANA S.A., CANAL+ wholesale partner since 1995. Leader in CANAL+ package distribution in Cameroon and Central African Republic. Availability and promptness are our strengths.",
-    "ctaPrimary": "Discover Our Offers",
+    "subheadline": "RAMANA S.A., CANAL+ wholesale partner since 1995. Expert in CANAL+ package distribution in Cameroon and Central African Republic. Availability and promptness are our strengths.",
+    "ctaPrimary": "Discover Packages",
     "ctaSecondary": "Contact Us",
     "badge1": "Since 1995",
     "badge2": "100+ Sales Points",
@@ -25,30 +25,30 @@
   },
   "about": {
     "title": "Who We Are",
-    "content": "RAMANA S.A. is one of 7 authorized CANAL+ wholesalers in Cameroon, with over 28 years of experience in premium television service distribution. Founded in 1995 as a CANAL+ partner, we have established ourselves as leaders in providing and installing satellite TV systems.",
+    "content": "RAMANA S.A. is one of 7 authorized CANAL+ wholesalers in Cameroon, with over 28 years of experience. As a wholesale partner since 1995, we have established ourselves as a reliable reference in providing and installing satellite TV systems.",
     "content2": "With a distribution network comprising over 100 sales points across Cameroon and Central African Republic, including ten company-owned outlets, we bring the best CANAL+ packages to urban households and the most remote areas.",
-    "content3": "Our expertise extends beyond simple distribution. We offer comprehensive services including supply and installation of professional audiovisual equipment, as well as training technicians in electronic and audiovisual maintenance. Our commitment to availability and promptness makes us the trusted partner for all your television entertainment needs.",
+    "content3": "Our expertise extends beyond simple distribution. We offer comprehensive services including supply and installation of professional audiovisual equipment, as well as training technicians in electronic and audiovisual maintenance.",
     "stat1Title": "Since 1995",
-    "stat1Desc": "Over 28 years of CANAL+ partnership",
+    "stat1Desc": "CANAL+ Wholesale Partner",
     "stat2Title": "100+ Sales Points",
     "stat2Desc": "Extensive distribution network",
     "stat3Title": "2 Countries",
     "stat3Desc": "Cameroon and Central African Republic",
     "stat4Title": "Authorized Wholesaler",
-    "stat4Desc": "One of 7 official distributors in Cameroon"
+    "stat4Desc": "Official Distributor"
   },
   "mission": {
     "title": "Our Mission & Vision",
     "missionTitle": "Our Mission",
     "missionContent": "To offer CANAL+ packages to households in urban centers and remote areas across Cameroon and Central African Republic. We are committed to providing superior quality service, professional installation, and reliable technical support to guarantee an exceptional television experience for all our customers.",
     "visionTitle": "Our Vision",
-    "visionContent": "To be the leading CANAL+ distributor in Central Africa, recognized for our operational excellence, exceptional territorial coverage, and unwavering commitment to customer satisfaction. We aspire to connect every household to the best in premium television entertainment."
+    "visionContent": "To be the leading CANAL+ wholesale partner in Central Africa, recognized for our operational excellence, exceptional territorial coverage, and unwavering commitment to customer satisfaction. We aspire to connect every household to the best in premium television entertainment."
   },
   "services": {
     "title": "Our Services",
     "subtitle": "Complete solutions for your television entertainment",
     "service1Title": "CANAL+ Package Distribution",
-    "service1Desc": "As one of 7 official CANAL+ wholesalers in Cameroon, we distribute all CANAL+ packages via Direct Satellite Reception (DSR) and other platforms. Our offerings include all CANAL+ packages, from entry-level to premium bouquets, suited to all budgets and preferences.",
+    "service1Desc": "As one of 7 official CANAL+ wholesalers in Cameroon, we distribute all CANAL+ packages via Direct Satellite Reception (DSR) and other platforms. Our offerings include all CANAL+ packages, from entry-level to premium bouquets.",
     "service1Features": [
       "All CANAL+ packages available",
       "Wholesale and retail distribution",
@@ -56,7 +56,7 @@
       "Easy subscription renewal"
     ],
     "service2Title": "TV System Installation",
-    "service2Desc": "Professional supply and installation of individual and collective TV systems. Our qualified technicians ensure standard-compliant installation, whether for a private residence, apartment building, hotel, or business. After-sales service and maintenance available.",
+    "service2Desc": "Professional supply and installation of individual and collective TV systems. Our qualified technicians ensure standard-compliant installation, whether for a private residence, apartment building, hotel, or business.",
     "service2Features": [
       "Individual and collective installation",
       "Certified and experienced technicians",
@@ -64,7 +64,7 @@
       "Installation warranty"
     ],
     "service3Title": "Audio-Visual Equipment",
-    "service3Desc": "Complete supply and installation of professional electronic and audiovisual equipment. From home cinema to complex commercial installations, we offer solutions tailored to your specific needs with personalized advice.",
+    "service3Desc": "Complete supply and installation of professional electronic and audiovisual equipment. From home cinema to complex commercial installations, we offer solutions tailored to your specific needs.",
     "service3Features": [
       "Professional and consumer equipment",
       "Complete installation and configuration",
@@ -72,7 +72,7 @@
       "Ongoing technical support"
     ],
     "service4Title": "Technical Training",
-    "service4Desc": "Specialized training for technicians in electronic and audiovisual maintenance. Our training programs cover installation, repair, and maintenance of CANAL+ and audiovisual equipment. Certificates awarded to participants.",
+    "service4Desc": "Specialized training for technicians in electronic and audiovisual maintenance. Our training programs cover installation, repair, and maintenance of CANAL+ and audiovisual equipment.",
     "service4Features": [
       "Theoretical and practical training",
       "Experienced trainer technicians",
@@ -100,41 +100,49 @@
     "advantage8Title": "Distribution Network",
     "advantage8Desc": "10+ company-owned outlets and 90+ distributor partners to serve you wherever you are.",
     "advantage9Title": "Recognized Excellence",
-    "advantage9Desc": "Regional leader recognized for our professionalism, integrity, and commitment to customer satisfaction."
+    "advantage9Desc": "Regional partner recognized for our professionalism, integrity, and commitment to customer satisfaction."
   },
   "packages": {
     "title": "Our CANAL+ Packages",
-    "subtitle": "Offers for all tastes and all budgets",
-    "intro": "RAMANA S.A. distributes all CANAL+ packages available in Cameroon. From access package to premium formulas, discover our offers and find the one that meets your needs.",
-    "package1Title": "CANAL+ ACCESS",
-    "package1Badge": "Discovery Offer",
-    "package1Desc": "Enjoy essential CANAL+ channels with the access package. Ideal for starting with CANAL+.",
-    "package1Features": ["General CANAL+ channels", "Varied programs", "HD access available", "Installation included"],
-    "package2Title": "CANAL+ ESCAPE",
-    "package2Badge": "Popular",
-    "package2Desc": "Complete family package with movies, series, sports, and entertainment for the whole family.",
-    "package2Features": [
-      "All ACCESS content",
-      "Premium cinema channels",
-      "Live sports",
-      "Youth programs",
-      "International series"
-    ],
-    "package3Title": "CANAL+ ALL CANAL+",
-    "package3Badge": "Premium",
-    "package3Desc": "The ultimate CANAL+ experience with all packages, all channels, all entertainment.",
-    "package3Features": [
-      "Full access to all channels",
-      "All exclusive sports",
-      "All movies and series",
-      "International content",
-      "On-demand services"
-    ],
-    "package4Title": "Thematic Packages",
-    "package4Desc": "Add specialized packages: Sports+, Cinema+, Series+, Kids+, and more.",
-    "cta": "Order Now",
-    "ctaAll": "See All Options",
-    "priceInfo": "For current rates and promotional offers, contact us directly. Prices vary according to chosen formulas and options."
+    "subtitle": "Choose your offer and enjoy +300 channels",
+    "intro": "Find the details of your offers. Formulas adapted to all budgets, starting from 5000 FCFA.",
+    "cta": "Subscribe Now",
+    "package1": {
+      "title": "ACCESS",
+      "price": "5 000 FCFA",
+      "period": "/month",
+      "theme": "gray",
+      "desc": "CANAL+ essentials. +200 local and international channels.",
+      "features": ["+200 channels", "Local channels (CRTV...)", "Novelas, A+, Trace Africa", "Installation included"]
+    },
+    "package2": {
+      "title": "EVASION",
+      "price": "10 000 FCFA",
+      "period": "/month",
+      "theme": "yellow",
+      "desc": "The heart of entertainment. Movies, series, and sports for the family.",
+      "features": ["All ACCESS channels", "Canal+ Sport 1, 2, 3, 4", "Kids Shows (Disney)", "National Geographic"]
+    },
+    "package3": {
+      "title": "ACCESS +",
+      "price": "15 000 FCFA",
+      "period": "/month",
+      "theme": "pink",
+      "desc": "All CANAL+ channels to vibrate with major events.",
+      "features": ["All CANAL+ channels", "Major championships (LaLiga)", "NBA, UFC", "Exclusive Cinema & Series"]
+    },
+    "package4": {
+      "title": "TOUT CANAL+",
+      "price": "28 000 FCFA",
+      "period": "/month",
+      "theme": "black",
+      "desc": "The limitless experience. All CANAL+, Netflix and DSTV English Plus included.",
+      "features": ["All channels (+300)", "Netflix included", "DSTV English Plus", "All Sport and Cinema options"]
+    },
+    "package4Title": "Options & Decoders",
+    "package4Desc": "Discover our Adult options, Netflix, and our complete kits (Decoder + Dish + Accessories).",
+    "ctaAll": "View All Options",
+    "priceInfo": "Prices indicated are monthly. HD Decoder starting from 1000 FCFA depending on promotion."
   },
   "coverage": {
     "title": "Our Coverage",
@@ -184,31 +192,31 @@
     "q3": "How can I renew my CANAL+ subscription?",
     "a3": "Several options are available: visit one of our 100+ sales points, call our customer service at 699759900, or contact us via WhatsApp. We accept Mobile Money, credit card, and cash payments. Renewal is instant.",
     "q4": "Can I install CANAL+ in my village/rural area?",
-    "a4": "It's precisely our mission to bring CANAL+ everywhere in Cameroon and CAR, including the most remote areas. Contact us to check satellite coverage in your area and we'll arrange installation with our qualified technicians.",
+    "a4": "Absolutely! C'est precisely our mission to bring CANAL+ everywhere in Cameroon and CAR, including the most remote areas. Contact us to check satellite coverage in your area and we'll arrange installation with our qualified technicians.",
     "q5": "How to become an authorized CANAL+ distributor?",
     "a5": "To become a RAMANA S.A. partner distributor, you must have suitable commercial space, investment capacity, and commitment to service quality. Contact us at 677781015 or by email at info@ramanasa.com to receive the complete application file.",
     "q6": "What CANAL+ packages are available?",
-    "a6": "We distribute all CANAL+ packages available in Cameroon: CANAL+ Access, CANAL+ Escape, CANAL+ All CANAL+, as well as thematic packages (Sports+, Cinema+, Series+, Kids+). Our advisors can help you choose the formula suited to your needs and budget.",
+    "a6": "We distribute all official packages: ACCESS (5000F), EVASION (10000F), ACCESS+ (15000F), and TOUT CANAL+ (28000F). Our advisors can help you choose the right formula.",
     "q7": "Do you offer installation services?",
-    "a7": "Yes, we offer complete installation services by our certified technicians. Installation includes dish mounting, decoder connection, signal adjustment, and initial configuration. We also offer collective system installation for buildings, hotels, and businesses.",
+    "a7": "Yes, we offer complete installation services by our certified technicians. Installation includes dish mounting, decoder connection, signal adjustment, and initial configuration.",
     "q8": "What is the warranty period on equipment?",
-    "a8": "All equipment we provide (decoders, dishes, cables) benefits from CANAL+ manufacturer warranty. In case of defect, we ensure replacement or repair according to warranty terms. Our after-sales service is available for any technical support."
+    "a8": "All equipment we provide (decoders, dishes, cables) benefits from CANAL+ manufacturer warranty. In case of defect, we ensure replacement or repair according to warranty terms."
   },
   "testimonials": {
     "title": "What Our Clients Say",
     "subtitle": "Satisfaction testimonials",
     "t1Quote": "Now in my 10th year with Ramana, my satisfaction is complete. Impeccable service, professional installation, and technical support always available. I highly recommend!",
-    "t1Name": "Mr. Kamga Pierre",
-    "t1Role": "Customer since 2015",
+    "t1Name": "Loyal Customer",
+    "t1Role": "Since 2015",
     "t2Quote": "I opened my CANAL+ distribution outlet with RAMANA in 2018. Their support and professionalism enabled me to develop a prosperous business.",
-    "t2Name": "Mrs. Fotso Marie",
-    "t2Role": "Partner Distributor, Douala",
+    "t2Name": "Partner Distributor",
+    "t2Role": "Douala",
     "t3Quote": "Quick installation even in my rural area. Technicians are competent and signal is excellent. RAMANA kept all its promises.",
-    "t3Name": "Mr. Ndi Emmanuel",
-    "t3Role": "Customer, Bamenda",
+    "t3Name": "Satisfied Customer",
+    "t3Role": "Bamenda",
     "t4Quote": "For our hotel's audiovisual equipment, RAMANA provided us with a complete and professional solution. Excellent value for money.",
-    "t4Name": "Hotel Paradis",
-    "t4Role": "Professional Client, Yaoundé"
+    "t4Name": "Partner Hotel",
+    "t4Role": "Yaoundé"
   },
   "cta": {
     "headline": "Ready to Enjoy CANAL+?",
@@ -254,7 +262,7 @@
   },
   "footer": {
     "tagline": "Your CANAL+ Partner Since 1995",
-    "description": "Leader in CANAL+ distribution in Cameroon and CAR. Over 100 sales points to serve you.",
+    "description": "Leading CANAL+ wholesale partner in Cameroon and CAR. Over 100 sales points to serve you.",
     "quickLinks": "Quick Links",
     "ourServices": "Our Services",
     "canalDistribution": "CANAL+ Distribution",

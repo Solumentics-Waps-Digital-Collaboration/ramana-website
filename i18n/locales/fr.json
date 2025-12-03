@@ -1,22 +1,22 @@
 {
   "metadata": {
     "title": "RAMANA S.A. - Distributeur Officiel CANAL+ Cameroun & RCA | Depuis 1995",
-    "description": "Leader distribution CANAL+ au Cameroun et RCA. 100+ points de vente. Installation professionnelle, bouquets premium, support technique. Grossiste agréé depuis 1995."
+    "description": "Partenaire grossiste CANAL+ au Cameroun et RCA. 100+ points de vente. Installation professionnelle, bouquets premium, support technique. Grossiste agréé depuis 1995."
   },
   "nav": {
     "home": "Accueil",
     "about": "À Propos",
     "services": "Services",
     "whyUs": "Avantages",
-    "products": "Produits",
+    "products": "Bouquets",
     "coverage": "Couverture",
     "faq": "FAQ",
     "contact": "Contact"
   },
   "hero": {
     "headline": "Votre Télé N'a Pas de Limite",
-    "subheadline": "RAMANA S.A., partenaire grossiste CANAL+ depuis 1995. Leader dans la distribution des bouquets CANAL+ au Cameroun et en Centrafrique. La disponibilité et la promptitude sont nos atouts.",
-    "ctaPrimary": "Découvrir Nos Offres",
+    "subheadline": "RAMANA S.A., partenaire grossiste CANAL+ depuis 1995. Expert dans la distribution des bouquets CANAL+ au Cameroun et en Centrafrique. La disponibilité et la promptitude sont nos atouts.",
+    "ctaPrimary": "Voir les Bouquets",
     "ctaSecondary": "Nous Contacter",
     "badge1": "Depuis 1995",
     "badge2": "100+ Points de Vente",
@@ -25,30 +25,30 @@
   },
   "about": {
     "title": "Qui Sommes-Nous?",
-    "content": "RAMANA S.A. est l'un des 7 grossistes CANAL+ agréés au Cameroun, avec plus de 28 ans d'expérience dans la distribution de services télévisuels premium. Fondée en 1995 en tant que partenaire CANAL+, nous nous sommes établis comme leaders dans la fourniture et l'installation de systèmes TV par satellite.",
+    "content": "RAMANA S.A. est l'un des 7 grossistes CANAL+ agréés au Cameroun, avec plus de 28 ans d'expérience. Partenaire grossiste depuis 1995, nous nous sommes établis comme une référence fiable dans la fourniture et l'installation de systèmes TV par satellite.",
     "content2": "Avec un réseau de distribution comprenant plus de 100 points de vente à travers le Cameroun et la République Centrafricaine, dont une dizaine de points de vente en propre, nous apportons les meilleurs bouquets CANAL+ aux ménages urbains et aux zones les plus reculées.",
-    "content3": "Notre expertise s'étend au-delà de la simple distribution. Nous offrons des services complets incluant la fourniture et l'installation de matériel audiovisuel professionnel, ainsi que la formation de techniciens en maintenance électronique et audiovisuelle. Notre engagement envers la disponibilité et la promptitude fait de nous le partenaire de confiance pour tous vos besoins en divertissement télévisuel.",
+    "content3": "Notre expertise s'étend au-delà de la simple distribution. Nous offrons des services complets incluant la fourniture et l'installation de matériel audiovisuel professionnel, ainsi que la formation de techniciens en maintenance électronique et audiovisuelle.",
     "stat1Title": "Depuis 1995",
-    "stat1Desc": "Plus de 28 ans de partenariat CANAL+",
+    "stat1Desc": "Partenaire Grossiste CANAL+",
     "stat2Title": "100+ Points de Vente",
     "stat2Desc": "Réseau de distribution étendu",
     "stat3Title": "2 Pays",
     "stat3Desc": "Cameroun et République Centrafricaine",
     "stat4Title": "Grossiste Agréé",
-    "stat4Desc": "L'un des 7 distributeurs officiels au Cameroun"
+    "stat4Desc": "Distributeur Officiel"
   },
   "mission": {
     "title": "Notre Mission & Vision",
     "missionTitle": "Notre Mission",
     "missionContent": "Offrir les bouquets CANAL+ aux ménages des centres urbains et des zones reculées à travers le Cameroun et la République Centrafricaine. Nous nous engageons à fournir un service de qualité supérieure, une installation professionnelle et un support technique fiable pour garantir une expérience télévisuelle exceptionnelle à tous nos clients.",
     "visionTitle": "Notre Vision",
-    "visionContent": "Être le distributeur CANAL+ de référence en Afrique Centrale, reconnu pour notre excellence opérationnelle, notre couverture territoriale exceptionnelle et notre engagement indéfectible envers la satisfaction client. Nous aspirons à connecter chaque foyer au meilleur du divertissement télévisuel premium."
+    "visionContent": "Être le partenaire grossiste CANAL+ de référence en Afrique Centrale, reconnu pour notre excellence opérationnelle, notre couverture territoriale exceptionnelle et notre engagement indéfectible envers la satisfaction client. Nous aspirons à connecter chaque foyer au meilleur du divertissement télévisuel premium."
   },
   "services": {
     "title": "Nos Services",
     "subtitle": "Solutions complètes pour votre divertissement télévisuel",
     "service1Title": "Distribution Bouquets CANAL+",
-    "service1Desc": "En tant que l'un des 7 grossistes officiels CANAL+ au Cameroun, nous distribuons l'ensemble des bouquets CANAL+ via Réception Directe par Satellite (RDS) et autres supports. Nos offres incluent tous les packages CANAL+, de l'entrée de gamme aux bouquets premium, adaptés à tous les budgets et préférences.",
+    "service1Desc": "En tant que l'un des 7 grossistes officiels CANAL+ au Cameroun, nous distribuons l'ensemble des bouquets CANAL+ via Réception Directe par Satellite (RDS) et autres supports. Nos offres incluent tous les packages CANAL+, de l'entrée de gamme aux bouquets premium.",
     "service1Features": [
       "Tous les bouquets CANAL+ disponibles",
       "Distribution en gros et au détail",
@@ -56,7 +56,7 @@
       "Renouvellement d'abonnements facilité"
     ],
     "service2Title": "Installation Systèmes TV",
-    "service2Desc": "Fourniture et installation professionnelle de systèmes TV individuels et collectifs. Nos techniciens qualifiés assurent une installation conforme aux normes, qu'il s'agisse d'une résidence privée, d'un immeuble collectif, d'un hôtel ou d'une entreprise. Service après-vente et maintenance disponibles.",
+    "service2Desc": "Fourniture et installation professionnelle de systèmes TV individuels et collectifs. Nos techniciens qualifiés assurent une installation conforme aux normes, qu'il s'agisse d'une résidence privée, d'un immeuble collectif, d'un hôtel ou d'une entreprise.",
     "service2Features": [
       "Installation individuelle et collective",
       "Techniciens certifiés et expérimentés",
@@ -64,7 +64,7 @@
       "Garantie sur installations"
     ],
     "service3Title": "Équipements Audio-Visuels",
-    "service3Desc": "Fourniture et installation complète d'appareils et équipements électroniques et audiovisuels professionnels. De l'équipement home cinéma aux installations commerciales complexes, nous proposons des solutions adaptées à vos besoins spécifiques avec conseil personnalisé.",
+    "service3Desc": "Fourniture et installation complète d'appareils et équipements électroniques et audiovisuels professionnels. De l'équipement home cinéma aux installations commerciales complexes, nous proposons des solutions adaptées à vos besoins spécifiques.",
     "service3Features": [
       "Équipements professionnels et grand public",
       "Installation et configuration complète",
@@ -72,7 +72,7 @@
       "Support technique continu"
     ],
     "service4Title": "Formation Technique",
-    "service4Desc": "Formation spécialisée des techniciens en maintenance électronique et audiovisuelle. Nos programmes de formation couvrent l'installation, la réparation et la maintenance des équipements CANAL+ et audiovisuels. Certificats délivrés aux participants.",
+    "service4Desc": "Formation spécialisée des techniciens en maintenance électronique et audiovisuelle. Nos programmes de formation couvrent l'installation, la réparation et la maintenance des équipements CANAL+ et audiovisuels.",
     "service4Features": [
       "Formation théorique et pratique",
       "Techniciens formateurs expérimentés",
@@ -100,46 +100,49 @@
     "advantage8Title": "Réseau de Distribution",
     "advantage8Desc": "10+ points de vente en propre et 90+ partenaires distributeurs pour vous servir partout où vous êtes.",
     "advantage9Title": "Excellence Reconnue",
-    "advantage9Desc": "Leader régional reconnu pour notre professionnalisme, notre intégrité et notre engagement envers la satisfaction client."
+    "advantage9Desc": "Partenaire régional reconnu pour notre professionnalisme, notre intégrité et notre engagement envers la satisfaction client."
   },
   "packages": {
     "title": "Nos Bouquets CANAL+",
-    "subtitle": "Des offres pour tous les goûts et tous les budgets",
-    "intro": "RAMANA S.A. distribue l'ensemble des bouquets CANAL+ disponibles au Cameroun. Du bouquet d'accès aux formules premium, découvrez nos offres et trouvez celle qui correspond à vos besoins.",
-    "package1Title": "CANAL+ ACCÈS",
-    "package1Badge": "Offre Découverte",
-    "package1Desc": "Profitez des chaînes essentielles CANAL+ avec le bouquet d'accès. Idéal pour débuter avec CANAL+.",
-    "package1Features": [
-      "Chaînes CANAL+ généralistes",
-      "Programmes variés",
-      "Accès HD disponible",
-      "Installation incluse"
-    ],
-    "package2Title": "CANAL+ ÉVASION",
-    "package2Badge": "Populaire",
-    "package2Desc": "Le bouquet familial complet avec films, séries, sports et divertissement pour toute la famille.",
-    "package2Features": [
-      "Tous les contenus ACCÈS",
-      "Chaînes cinéma premium",
-      "Sports en direct",
-      "Programmes jeunesse",
-      "Séries internationales"
-    ],
-    "package3Title": "CANAL+ TOUT CANAL+",
-    "package3Badge": "Premium",
-    "package3Desc": "L'expérience CANAL+ ultime avec tous les bouquets, toutes les chaînes, tout le divertissement.",
-    "package3Features": [
-      "Accès complet à toutes les chaînes",
-      "Tous les sports en exclusivité",
-      "Tous les films et séries",
-      "Contenus internationaux",
-      "Services à la demande"
-    ],
-    "package4Title": "Bouquets Thématiques",
-    "package4Desc": "Ajoutez des bouquets spécialisés : Sports+, Cinéma+, Séries+, Kids+, et plus encore.",
-    "cta": "Commander Maintenant",
+    "subtitle": "Choisissez votre offre et profitez de + de 300 chaînes",
+    "intro": "Retrouvez le détail de vos offres. Des formules adaptées à tous les budgets, à partir de 5000 FCFA.",
+    "cta": "S'abonner Maintenant",
+    "package1": {
+      "title": "ACCESS",
+      "price": "5 000 FCFA",
+      "period": "/mois",
+      "theme": "gray",
+      "desc": "L'essentiel de CANAL+. + de 200 chaînes locales et internationales.",
+      "features": ["+ de 200 chaînes", "Chaînes locales (CRTV, Canal 2...)", "Novelas, A+, Trace Africa", "Installations incluses"]
+    },
+    "package2": {
+      "title": "EVASION",
+      "price": "10 000 FCFA",
+      "period": "/mois",
+      "theme": "yellow",
+      "desc": "Au cœur du divertissement. Films, séries, et sports pour toute la famille.",
+      "features": ["Toutes les chaînes ACCESS", "Canal+ Sport 1, 2, 3, 4", "Emissions Jeunesse (Disney, Piwi+)", "National Geographic, Histoire"]
+    },
+    "package3": {
+      "title": "ACCESS +",
+      "price": "15 000 FCFA",
+      "period": "/mois",
+      "theme": "pink",
+      "desc": "Toutes les chaînes CANAL+ pour vibrer au rythme des grands événements.",
+      "features": ["Toutes les chaînes CANAL+", "Grands championnats (LaLiga, Premier League)", "NBA, UFC", "Cinéma et Séries en exclusivité"]
+    },
+    "package4": {
+      "title": "TOUT CANAL+",
+      "price": "28 000 FCFA",
+      "period": "/mois",
+      "theme": "black",
+      "desc": "L'expérience sans limite. Tout CANAL+, Netflix et DSTV English Plus inclus.",
+      "features": ["Intégralité des chaînes (+300)", "Netflix inclus", "DSTV English Plus", "Toutes les options Sport et Cinéma"]
+    },
+    "package4Title": "Options & Décodeurs",
+    "package4Desc": "Découvrez également nos options Charme, Netflix et nos kits complets (Décodeur + Parabole + Accessoires).",
     "ctaAll": "Voir Toutes les Options",
-    "priceInfo": "Pour connaître les tarifs actuels et les offres promotionnelles, contactez-nous directement. Les prix varient selon les formules et options choisies."
+    "priceInfo": "Les tarifs indiqués sont mensuels. Décodeur HD à partir de 1000 FCFA selon promotion."
   },
   "coverage": {
     "title": "Notre Couverture",
@@ -193,27 +196,27 @@
     "q5": "Comment devenir distributeur agréé CANAL+?",
     "a5": "Pour devenir distributeur partenaire RAMANA S.A., vous devez disposer d'un espace commercial adapté, d'une capacité d'investissement et d'un engagement envers la qualité de service. Contactez-nous au 677781015 ou par email à info@ramanasa.com pour recevoir le dossier de candidature complet.",
     "q6": "Quels sont les bouquets CANAL+ disponibles?",
-    "a6": "Nous distribuons tous les bouquets CANAL+ disponibles au Cameroun: CANAL+ Accès, CANAL+ Évasion, CANAL+ Tout CANAL+, ainsi que les bouquets thématiques (Sports+, Cinéma+, Séries+, Kids+). Nos conseillers peuvent vous aider à choisir la formule adaptée à vos besoins et votre budget.",
+    "a6": "Nous distribuons tous les bouquets officiels : ACCESS (5000F), EVASION (10000F), ACCESS+ (15000F) et TOUT CANAL+ (28000F), ainsi que les options. Nos conseillers peuvent vous aider à choisir la formule adaptée.",
     "q7": "Offrez-vous des services d'installation?",
-    "a7": "Oui, nous offrons des services complets d'installation par nos techniciens certifiés. L'installation inclut la pose de la parabole, le branchement du décodeur, le réglage du signal et la configuration initiale. Nous proposons également l'installation de systèmes collectifs pour immeubles, hôtels et entreprises.",
+    "a7": "Oui, nous offrons des services complets d'installation par nos techniciens certifiés. L'installation inclut la pose de la parabole, le branchement du décodeur, le réglage du signal et la configuration initiale.",
     "q8": "Quelle est la durée de garantie sur le matériel?",
-    "a8": "Tout le matériel que nous fournissons (décodeurs, paraboles, câbles) bénéficie de la garantie constructeur CANAL+. En cas de défaut, nous assurons le remplacement ou la réparation selon les termes de la garantie. Notre service après-vente est disponible pour tout support technique."
+    "a8": "Tout le matériel que nous fournissons (décodeurs, paraboles, câbles) bénéficie de la garantie constructeur CANAL+. En cas de défaut, nous assurons le remplacement ou la réparation selon les termes de la garantie."
   },
   "testimonials": {
     "title": "Ce Que Disent Nos Clients",
     "subtitle": "Témoignages de satisfaction",
     "t1Quote": "Rendu à ma 10ème année avec Ramana, ma satisfaction est totale. Service impeccable, installation professionnelle et support technique toujours disponible. Je recommande vivement!",
-    "t1Name": "M. Kamga Pierre",
-    "t1Role": "Client depuis 2015",
+    "t1Name": "Client Fidèle",
+    "t1Role": "Depuis 2015",
     "t2Quote": "J'ai ouvert mon point de vente de distribution CANAL+ avec RAMANA en 2018. Leur accompagnement et leur professionnalisme m'ont permis de développer une activité prospère.",
-    "t2Name": "Mme Fotso Marie",
-    "t2Role": "Distributrice Partenaire, Douala",
+    "t2Name": "Partenaire Distributeur",
+    "t2Role": "Douala",
     "t3Quote": "Installation rapide même dans ma zone rurale. Les techniciens sont compétents et le signal est excellent. RAMANA a tenu toutes ses promesses.",
-    "t3Name": "M. Ndi Emmanuel",
-    "t3Role": "Client, Bamenda",
+    "t3Name": "Client Satisfait",
+    "t3Role": "Bamenda",
     "t4Quote": "Pour l'équipement audiovisuel de notre hôtel, RAMANA nous a fourni une solution complète et professionnelle. Excellent rapport qualité-prix.",
-    "t4Name": "Hôtel Paradis",
-    "t4Role": "Client Professionnel, Yaoundé"
+    "t4Name": "Hôtel Partenaire",
+    "t4Role": "Yaoundé"
   },
   "cta": {
     "headline": "Prêt à Profiter de CANAL+?",
@@ -259,7 +262,7 @@
   },
   "footer": {
     "tagline": "Votre Partenaire CANAL+ Depuis 1995",
-    "description": "Leader dans la distribution CANAL+ au Cameroun et en RCA. Plus de 100 points de vente pour vous servir.",
+    "description": "Partenaire grossiste CANAL+ au Cameroun et en RCA. Plus de 100 points de vente pour vous servir.",
     "quickLinks": "Liens Rapides",
     "ourServices": "Nos Services",
     "canalDistribution": "Distribution CANAL+",
