@@ -161,9 +161,9 @@ export function ContactSection({ dict }: ContactSectionProps) {
                   <div className="flex-1">
                     <h3 className="font-semibold text-gray-900">{dict.contact.phoneTitle}</h3>
                     <p className="mt-1 text-gray-600">{dict.contact.phoneMain}: +237 699 759 900</p>
-                    <p className="text-gray-600">{dict.contact.phoneSecondary}: +237 677 781 015</p>
+                    <p className="text-gray-600">{dict.contact.phoneSecondary}: +237 651 841 190</p>
                     <Button variant="outline" size="sm" className="mt-3 bg-transparent" asChild>
-                      <a href="tel:+237699759900">
+                      <a href="tel:+23751841190">
                         <Phone className="mr-2 h-4 w-4" />
                         {dict.contact.phoneButton}
                       </a>
@@ -182,9 +182,9 @@ export function ContactSection({ dict }: ContactSectionProps) {
                   </div>
                   <div className="flex-1">
                     <h3 className="font-semibold text-gray-900">{dict.contact.whatsappTitle}</h3>
-                    <p className="mt-1 text-gray-600">+237 699 759 900</p>
+                    <p className="mt-1 text-gray-600">+237 651 841 190</p>
                     <Button size="sm" className="mt-3 bg-green-500 hover:bg-green-600" asChild>
-                      <a href="https://wa.me/237699759900" target="_blank" rel="noopener noreferrer">
+                      <a href="https://wa.me/237651841190" target="_blank" rel="noopener noreferrer">
                         <MessageCircle className="mr-2 h-4 w-4" />
                         {dict.contact.whatsappButton}
                       </a>
