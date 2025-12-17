@@ -15,6 +15,7 @@ import { CTASection } from "@/components/sections/cta"
 import { ContactSection } from "@/components/sections/contact"
 import { Footer } from "@/components/footer"
 import { WhatsAppButton } from "@/components/whatsapp-button"
+import { TeamGallerySection } from "@/components/sections/team-gallery"
 
 export default async function HomePage({
   params,
@@ -30,6 +31,7 @@ export default async function HomePage({
       <HeroSection dict={dict} locale={locale} />
       <AboutSection dict={dict} />
       <MissionSection dict={dict} />
+      <TeamGallerySection dict={dict} />
       <ServicesSection dict={dict} />
       <WhyUsSection dict={dict} />
       <PackagesSection dict={dict} />

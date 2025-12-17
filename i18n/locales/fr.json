@@ -44,6 +44,15 @@
     "visionTitle": "Notre Vision",
     "visionContent": "Être le partenaire grossiste CANAL+ de référence en Afrique Centrale, reconnu pour notre excellence opérationnelle, notre couverture territoriale exceptionnelle et notre engagement indéfectible envers la satisfaction client. Nous aspirons à connecter chaque foyer au meilleur du divertissement télévisuel premium."
   },
+  "teamGallery": {
+    "title": "La Famille RAMANA",
+    "subtitle": "NOS ÉQUIPES",
+    "description": "Plus qu'une entreprise, une communauté passionnée. De nos conventions internationales à nos opérations sur le terrain, découvrez ceux qui font la différence.",
+    "img1Caption": "Convention Distributeurs à Valmorel (2015) - L'historique de l'excellence",
+    "img2Caption": "Nos équipes terrain en action - Proximité et Service",
+    "img3Caption": "Cohésion et Dynamisme - L'esprit d'équipe",
+    "img4Caption": "Formation et Développement - Grandir ensemble"
+  },
   "services": {
     "title": "Nos Services",
     "subtitle": "Solutions complètes pour votre divertissement télévisuel",
