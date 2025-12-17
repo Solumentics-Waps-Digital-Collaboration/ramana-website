@@ -40,10 +40,10 @@ const themeConfig = {
 }
 // Map package keys to their image filenames
 const packageImages = {
-  package1: "/access-bouquet.png",
-  package2: "/evasion-bouquet.png",
-  package3: "/access-plus-bouquet.png",
-  package4: "/tout-canal-plus-bouquet.png",
+  package1: "/access-bouquet.jpg",
+  package2: "/evasion-bouquet.jpg",
+  package3: "/access-plus-bouquet.jpg",
+  package4: "/tout-canal-plus-bouquet.jpg",
 }
 export function PackagesSection({ dict }: PackagesSectionProps) {
   const packageKeys = ["package1", "package2", "package3", "package4"] as const
@@ -105,7 +105,7 @@ export function PackagesSection({ dict }: PackagesSectionProps) {
         {/* Options Section - L'APP CANAL+, Netflix, DSTV, CHARME */}
         <div className="mt-12">
           <Image
-            src="/options-section.png"
+            src="/options-section.jpg"
             alt="CANAL+ Options - App, Netflix, DSTV English Plus, CHARME"
             width={1200}
             height={250}
