@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Satellite, Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
+import { Satellite, Facebook, Twitter, Instagram, Linkedin, MapPin, Phone, Mail, Globe } from "lucide-react"
 import type { Dictionary } from "@/i18n/get-dictionary"
 import type { Locale } from "@/i18n/config"
 
@@ -14,6 +14,7 @@ export function Footer({ dict, locale }: FooterProps) {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="py-12 lg:py-16">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+            
             {/* Column 1 - About */}
             <div>
               <Link href={`/${locale}`} className="flex items-center gap-2">
@@ -24,6 +25,7 @@ export function Footer({ dict, locale }: FooterProps) {
               </Link>
               <p className="mt-2 text-sm text-blue-200">{dict.footer.tagline}</p>
               <p className="mt-4 text-sm text-blue-300 leading-relaxed">{dict.footer.description}</p>
+              
               {/* Social Icons */}
               <div className="mt-6 flex gap-4">
                 <a
@@ -132,30 +134,29 @@ export function Footer({ dict, locale }: FooterProps) {
               </ul>
             </div>
 
-            {/* Column 4 - Contact */}
+            {/* Column 4 - Contact Info (Lucide Icons) */}
             <div>
               <h3 className="font-semibold text-white mb-4">{dict.footer.contactUs}</h3>
-              <ul className="space-y-3 text-blue-300">
-                <li className="flex items-start gap-2">
-                  <span>📍</span>
+              <ul className="space-y-4 text-blue-300">
+                <li className="flex items-start gap-3">
+                  <MapPin className="h-5 w-5 text-blue-500 shrink-0 mt-0.5" />
                   <span>Montée Tsinga, Yaoundé</span>
                 </li>
-                <li className="flex items-start gap-2">
-                  <span>📞</span>
-                  <span>+237 699 759 900</span>
+                <li className="flex items-start gap-3">
+                  <Phone className="h-5 w-5 text-blue-500 shrink-0 mt-0.5" />
+                  <div className="flex flex-col">
+                    <span>+237 699 759 900</span>
+                    <span>+237 677 781 015</span>
+                  </div>
                 </li>
-                <li className="flex items-start gap-2">
-                  <span>📞</span>
-                  <span>+237 677 781 015</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span>📧</span>
+                <li className="flex items-start gap-3">
+                  <Mail className="h-5 w-5 text-blue-500 shrink-0 mt-0.5" />
                   <a href="mailto:info@ramanasa.com" className="hover:text-white transition-colors">
                     info@ramanasa.com
                   </a>
                 </li>
-                <li className="flex items-start gap-2">
-                  <span>🌐</span>
+                <li className="flex items-start gap-3">
+                  <Globe className="h-5 w-5 text-blue-500 shrink-0 mt-0.5" />
                   <span>ramanasa.com</span>
                 </li>
               </ul>
@@ -163,12 +164,43 @@ export function Footer({ dict, locale }: FooterProps) {
           </div>
         </div>
 
-        {/* Bottom Bar */}
+        {/* Bottom Bar - Signature */}
         <div className="border-t border-blue-900 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-blue-300">
-            <p>{dict.footer.copyright}</p>
-            <p className="font-semibold text-blue-200">{dict.footer.official}</p>
-            <p>{dict.footer.designed}</p>
+            
+            {/* Copyright & Official Status */}
+            <div className="flex flex-col sm:flex-row gap-2 sm:gap-6 text-center sm:text-left">
+              <p>{dict.footer.copyright}</p>
+              <p className="font-semibold text-blue-200">{dict.footer.official}</p>
+            </div>
+
+            {/* Designed Text & Agency Signature */}
+            <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
+              <p className="hidden lg:block text-blue-400/60">{dict.footer.designed}</p>
+              <span className="hidden lg:block text-blue-800">|</span>
+              
+              <div className="flex items-center gap-1">
+                <span className="text-blue-400">{dict.footer.poweredBy}</span>
+                <a 
+                  href="https://wapsdigital.cloud" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-blue-200 font-medium transition-colors ml-1"
+                >
+                  Wapsdigital
+                </a>
+                <span className="px-1 text-blue-500 font-bold text-xs select-none">X</span>
+                <a 
+                  href="https://solumentics.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-blue-200 font-medium transition-colors"
+                >
+                  Solumentics
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

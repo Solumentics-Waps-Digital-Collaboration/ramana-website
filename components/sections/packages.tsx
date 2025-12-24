@@ -4,9 +4,11 @@ import { SectionTitle } from "@/components/section-title"
 import type { Dictionary } from "@/i18n/get-dictionary"
 import { cn } from "@/lib/utils"
 import Image from "next/image"
+
 interface PackagesSectionProps {
   dict: Dictionary
 }
+
 // Configuration to match the Flyer colors exactly
 const themeConfig = {
   gray: {
@@ -38,28 +40,34 @@ const themeConfig = {
     button: "bg-black hover:bg-gray-800 text-white",
   },
 }
+
 // Map package keys to their image filenames
 const packageImages = {
   package1: "/access-bouquet.jpg",
-  package2: "/evasion-bouquet.jpg",
-  package3: "/access-plus-bouquet.jpg",
-  package4: "/tout-canal-plus-bouquet.jpg",
+  package2: "/evasion-bouquet.png",
+  package3: "/access-plus-bouquet.png",
+  package4: "/tout-canal-plus-bouquet.png",
 }
+
 export function PackagesSection({ dict }: PackagesSectionProps) {
   const packageKeys = ["package1", "package2", "package3", "package4"] as const
+
   return (
     <section id="packages" className="py-20 lg:py-28 bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionTitle center subtitle={dict.packages.subtitle}>
           {dict.packages.title}
         </SectionTitle>
+
         <p className="mx-auto mt-4 max-w-3xl text-center text-gray-600">{dict.packages.intro}</p>
+
         {/* Grid with 4 bouquet cards */}
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4 items-start">
           {packageKeys.map((key) => {
             const pkgData = dict.packages[key] as any
             const theme = themeConfig[pkgData.theme as keyof typeof themeConfig] || themeConfig.gray
             const imageSrc = packageImages[key]
+
             return (
               <Card
                 key={key}
@@ -78,6 +86,7 @@ export function PackagesSection({ dict }: PackagesSectionProps) {
                     <span className="text-sm opacity-80">{pkgData.period}</span>
                   </div>
                 </div>
+
                 {/* Bouquet Image - This is the key addition */}
                 <div className="relative w-full bg-white">
                   <Image
@@ -89,6 +98,7 @@ export function PackagesSection({ dict }: PackagesSectionProps) {
                     priority={key === "package1"}
                   />
                 </div>
+
                 {/* Footer with "+ ACCESS" button */}
                 <CardFooter className="pb-4 pt-2 bg-gray-100">
                   <Button
@@ -102,16 +112,18 @@ export function PackagesSection({ dict }: PackagesSectionProps) {
             )
           })}
         </div>
+        
         {/* Options Section - L'APP CANAL+, Netflix, DSTV, CHARME */}
         <div className="mt-12">
           <Image
-            src="/options-section.jpg"
+            src="/options-section.png"
             alt="CANAL+ Options - App, Netflix, DSTV English Plus, CHARME"
             width={1200}
             height={250}
             className="w-full h-auto rounded-lg shadow-lg"
           />
         </div>
+
         {/* Legal text from the flyer */}
         <div className="mt-8 text-center">
           <p className="text-xs text-gray-500 italic max-w-5xl mx-auto leading-relaxed">
