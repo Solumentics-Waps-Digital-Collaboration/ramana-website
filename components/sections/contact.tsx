@@ -1,7 +1,6 @@
 "use client"
 
 import type React from "react"
-
 import { useState } from "react"
 import { MapPin, Phone, MessageCircle, Mail, Clock, Send, Loader2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -12,6 +11,8 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { SectionTitle } from "@/components/section-title"
 import type { Dictionary } from "@/i18n/get-dictionary"
+// Optional: If you want to use the toast system you already have installed
+// import { toast } from "sonner" 
 
 interface ContactSectionProps {
   dict: Dictionary
@@ -21,17 +22,52 @@ export function ContactSection({ dict }: ContactSectionProps) {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSuccess, setIsSuccess] = useState(false)
 
+  // 1. STATE MANAGEMENT FOR INPUTS
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    type: "",
+    message: ""
+  })
+
+  // 2. HANDLERS
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData({ ...formData, [e.target.id]: e.target.value })
+  }
+
+  const handleSelectChange = (value: string) => {
+    setFormData({ ...formData, type: value })
+  }
+
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setIsSubmitting(true)
+    setIsSuccess(false)
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500))
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      })
 
-    setIsSubmitting(false)
-    setIsSuccess(true)
+      if (!res.ok) throw new Error('Failed to send')
 
-    setTimeout(() => setIsSuccess(false), 5000)
+      // Success
+      setIsSuccess(true)
+      setFormData({ name: "", email: "", phone: "", type: "", message: "" }) // Reset form
+      
+      // If you prefer a toast notification, uncomment this:
+      // toast.success("Message sent successfully!")
+
+      setTimeout(() => setIsSuccess(false), 5000)
+    } catch (error) {
+      console.error(error)
+      alert("Something went wrong. Please try again.") // Or use toast.error()
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -54,6 +90,8 @@ export function ContactSection({ dict }: ContactSectionProps) {
                       required
                       placeholder="Jean Dupont"
                       className="border-gray-200 focus:border-blue-500"
+                      value={formData.name}
+                      onChange={handleChange}
                     />
                   </div>
                   <div className="space-y-2">
@@ -64,6 +102,8 @@ export function ContactSection({ dict }: ContactSectionProps) {
                       required
                       placeholder="jean@example.com"
                       className="border-gray-200 focus:border-blue-500"
+                      value={formData.email}
+                      onChange={handleChange}
                     />
                   </div>
                 </div>
@@ -77,11 +117,13 @@ export function ContactSection({ dict }: ContactSectionProps) {
                       required
                       placeholder="+237 6XX XXX XXX"
                       className="border-gray-200 focus:border-blue-500"
+                      value={formData.phone}
+                      onChange={handleChange}
                     />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="type">{dict.contact.formType} *</Label>
-                    <Select required>
+                    <Select required onValueChange={handleSelectChange} value={formData.type}>
                       <SelectTrigger className="border-gray-200 focus:border-blue-500">
                         <SelectValue placeholder="Select..." />
                       </SelectTrigger>
@@ -103,6 +145,8 @@ export function ContactSection({ dict }: ContactSectionProps) {
                     required
                     rows={5}
                     className="border-gray-200 focus:border-blue-500 resize-none"
+                    value={formData.message}
+                    onChange={handleChange}
                   />
                 </div>
 
@@ -134,7 +178,7 @@ export function ContactSection({ dict }: ContactSectionProps) {
             </CardContent>
           </Card>
 
-          {/* Contact Info */}
+          {/* Contact Info Section */}
           <div className="space-y-6">
             {/* Location */}
             <Card className="border-2 border-gray-100 hover:border-blue-200 transition-colors">
